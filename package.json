@@ -1,0 +1,29 @@
+{
+  "name": "airtrik",
+  "version": "0.1.0",
+  "description": "Connect IoT Devices to cloud and manage from anywhere.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airtrik/node.git"
+  },
+  "keywords": [
+    "IoT",
+    "Cloud",
+    "Connect",
+    "Airtrik"
+  ],
+  "author": "Vishal Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airtrik/node/issues"
+  },
+  "homepage": "https://github.com/airtrik/node#readme",
+  "dependencies": {
+    "mqtt": "^4.1.0",
+    "request": "^2.88.2"
+  }
+}
