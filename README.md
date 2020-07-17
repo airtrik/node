@@ -22,9 +22,8 @@ Follow the below instructions to get your device and application up and running 
 
 ### Prerequisites
 
-Before proceeding further you have would need a webserver to run your html file.
+Before proceeding further you have would need a node js running on your system install the latest version of nodejs and npm for your platform from here [https://nodejs.org/en/](https://nodejs.org/en/)
 
-    install the latest version of nodejs and npm for your platform from here [https://nodejs.org/en/](https://nodejs.org/en/)
 ### Installing
 
 Airtrik node library can easily be loaded to your project through npm following is the you need to run inside your node project terminal to install airtrik.
