@@ -1,6 +1,6 @@
 {
   "name": "airtrik",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect IoT Devices to cloud and manage from anywhere.",
   "main": "index.js",
   "scripts": {

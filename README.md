@@ -22,7 +22,8 @@ Follow the below instructions to get your device and application up and running 
 
 ### Prerequisites
 
-Before proceeding further you have would need a node js running on your system install the latest version of nodejs and npm for your platform from here [https://nodejs.org/en/](https://nodejs.org/en/)
+- Before proceeding further you have would need a node js running on your system install the latest version of nodejs and npm for your platform from here [https://nodejs.org/en/](https://nodejs.org/en/)
+- Create an account at [airtrik.com](https://airtrik.com/panel/) and create an app and devices to get your `__APP_KEY__` and `__DEVICE_ID__`
 
 ### Installing
 
