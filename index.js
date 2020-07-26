@@ -9,6 +9,7 @@ const myEmitter = new MyEmitter();
 
 var KEY = ""
 var apiEndPoint = "https://airtrik.com/iot/";
+var lastMsgEndPoint = "https://airtrik.com/api/lastmsg/";
 
 var client = null;
 
@@ -62,8 +63,32 @@ function connect(key){
 }
 
 
+function lastmsg(key=0){
+  if(key == 0){
+    key = KEY
+  }
+  let myPromise = new Promise((resolve, reject)=>{
+    request.post(
+      lastMsgEndPoint,
+      { form: { key: key } },
+      function (error, response, body) {
+        if (!error && response.statusCode == 200) {        
+          var res = JSON.parse(body)
+          resolve(res)
+        }
+        else{
+          reject({'error': 'wrong key'})
+        }
+      }
+    )
+  })
+  return myPromise;
+
+}
+
 myEmitter.send = send
 myEmitter.subscribe = subscribe
+myEmitter.lastmsg = lastmsg
 
 module.exports.connect = connect
 
